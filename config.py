@@ -35,7 +35,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "d191e92d7f390a8a743a8871e10f7955a5739c73")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","leakhubd/1264")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/how_bot_works/10")
 
 
 #force sub channel id, if you want enable force sub
